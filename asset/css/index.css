@@ -1,0 +1,32 @@
+body{
+    background-color: #100e1b;
+}
+
+#hero {
+    display: flex;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../asset/homepage/bg.jpg);
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 400px){
+}
+
+.content .title{
+   /* font-size: 4em; */
+   text-shadow: 2px 2px 4px black;
+}
+
+.content p{
+   text-shadow: 2px 2px 2px black;
+}
+
+.content .btnsh{
+   padding: 10px 20px;
+   font-size: 1.5em;
+   box-shadow: 4px 4px white;
+}
