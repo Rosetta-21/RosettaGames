@@ -23,7 +23,7 @@ body{
 }
 
 .card .card-body {
-    display: relative;
+    display: relative; /*gada display relative BLOK adanya position relative*/
 }
 
 .card .img-size {
