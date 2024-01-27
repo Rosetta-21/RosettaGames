@@ -9,6 +9,8 @@ body{
     background-size: cover;
     background-image: url(../../asset/games/bg.jpg);
     align-items: center;    
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -30,3 +32,6 @@ body{
     object-fit: cover;
 }
 
+.h1 {
+    line-height: 100px;
+}
