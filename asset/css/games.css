@@ -7,7 +7,7 @@ body{
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../../asset/games/bg.jpg);
+    background-image: url(../../asset/games/bg-dark.jpg);
     align-items: center;    
     flex-direction: column;
     justify-content: center;
@@ -19,11 +19,21 @@ body{
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .card .card-body {
     display: relative; /*gada display relative BLOK adanya position relative:v*/
+}
+
+.joedoel .judul {
+    text-shadow: 2px 2px 4px black;
+}
+
+.joedoel .subjudul {
+    text-shadow: 2px 2px 2px black;
 }
 
 /* .card .img-size {
