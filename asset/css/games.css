@@ -2,6 +2,14 @@ body{
     background-color: #100e1b;
 }
 
+html {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+html::-webkit-scrollbar { 
+    display: none;
+}
+
 #hero {
     display: flex;
     height: 100vh;
