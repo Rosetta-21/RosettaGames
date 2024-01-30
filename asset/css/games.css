@@ -7,7 +7,7 @@ body{
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../../asset/games/bg.jpg);
+    background-image: url(../../asset/games/bg-min.jpg);
     align-items: center;    
     flex-direction: column;
     justify-content: center;
