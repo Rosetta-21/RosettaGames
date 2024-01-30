@@ -7,10 +7,19 @@ body{
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../../asset/games/bg-dark.jpg);
+    background-image: url(../../asset/games/bg.jpg);
     align-items: center;    
     flex-direction: column;
     justify-content: center;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    background: #4d2b6b14;
+    backdrop-filter: brightness(0.8);
+    height: 100vh;
+    width: 100vw;
 }
 
 
@@ -19,9 +28,9 @@ body{
 }
 
 .card {
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
 }
 
 .card .card-body {
@@ -30,10 +39,12 @@ body{
 
 .joedoel .judul {
     text-shadow: 2px 2px 4px black;
+    position: relative;
 }
 
 .joedoel .subjudul {
     text-shadow: 2px 2px 2px black;
+    position: relative;
 }
 
 /* .card .img-size {
