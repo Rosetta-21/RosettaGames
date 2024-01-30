@@ -1,0 +1,20 @@
+.navbar-toggler {
+filter: invert(1);
+}
+
+.navbar-nav{
+margin-right: 16px;
+}
+
+nav {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtUvJX8v8FVgqXRyNdESdwJev7fYvuF1G_1q1g5jxNUm6FvbEADb6WLwm8M-6uLufPHRY&usqp=CAU');
+    background-position: 80%;
+}
+
+.nav-link:hover {
+  color: #8d6fd1 !important;
+}
+
+.nav-link .text-light:hover {
+  color: #8d6fd1 !important;
+}

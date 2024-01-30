@@ -1,0 +1,66 @@
+body{
+    background-color: #100e1b;
+}
+
+html {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+html::-webkit-scrollbar { 
+    display: none;
+}
+
+#hero {
+    display: flex;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../asset/games/bg-min.jpg);
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    background: #4d2b6b14;
+    backdrop-filter: brightness(0.8);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+@media screen and (max-width: 400px){
+}
+
+.card {
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+}
+
+.card .card-body {
+    display: relative; /*gada display relative BLOK adanya position relative:v*/
+}
+
+.joedoel .judul {
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+}
+
+.joedoel .subjudul {
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+}
+
+/* .card .img-size {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.h1 {
+    line-height: 100px;
+} */
