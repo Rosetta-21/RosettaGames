@@ -12,5 +12,9 @@ nav {
 }
 
 .nav-link:hover {
-  color: #734bc9 !important;
+  color: #8d6fd1 !important;
+}
+
+.nav-link .text-light:hover {
+  color: #8d6fd1 !important;
 }
