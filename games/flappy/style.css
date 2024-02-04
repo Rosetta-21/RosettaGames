@@ -15,3 +15,27 @@ html {
 html::-webkit-scrollbar { 
     display: none; 
 }
+
+#bang {
+    background-color: #3A2473;
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .canvas-border {
+    width: 100vw; 
+    height: 90vh;
+    display: flex; 
+    align-items: center;
+} */
+
+.card {
+    background-color: #542EAB;
+}
+.card .card-body {
+    color : white
+}
