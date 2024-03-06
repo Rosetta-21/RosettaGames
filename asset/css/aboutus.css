@@ -11,12 +11,20 @@ body{
     /* background-size: auto 100vh; */
     background-size: cover;
     background-attachment: fixed;
-    backdrop-filter: brightness(0.7) blur(3.2px);
+    backdrop-filter: brightness(0.7) blur(3.5px);
 color: white;
 }
 
 .topsec{
 padding: 50px;
+}
+
+a i{
+    color: white;
+}
+
+p a {
+    color: white;
 }
 
 h3 a{
