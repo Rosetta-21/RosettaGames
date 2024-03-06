@@ -1,6 +1,7 @@
 html {
     -ms-overflow-style: none; 
     scrollbar-width: none;  
+    background-color: rgb(20, 20, 87);
 }
 html::-webkit-scrollbar { 
     display: none; 
