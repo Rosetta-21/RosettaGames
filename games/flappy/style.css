@@ -7,7 +7,6 @@
     padding: auto;
     
 }
-
 html {
     -ms-overflow-style: none; 
     scrollbar-width: none;  
@@ -15,7 +14,6 @@ html {
 html::-webkit-scrollbar { 
     display: none; 
 }
-
 #bang {
     /* background-color: #3A2473; */
     background: rgb(42,26,87);
