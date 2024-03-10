@@ -13,10 +13,11 @@ html::-webkit-scrollbar {
 #hero {
     display: flex;
     height: 100vh;
-    background-position: center;
+    background-position: var(--hero-position);
     background-size: cover;
-    background-image: url(../../asset/homepage/bg.jpg);
+    background-image: var(--hero-bg);
     align-items: center;
+    transition: 0.5s;
 }
 
 
@@ -26,11 +27,11 @@ html::-webkit-scrollbar {
 
 .content .title{
    /* font-size: 4em; */
-   text-shadow: 2px 2px 4px black;
+   text-shadow: 2px 2px 4px var(--secondary-100);
 }
 
 .content p{
-   text-shadow: 2px 2px 2px black;
+   text-shadow: 2px 2px 2px var(--secondary-100);
 }
 
 .content .btnsh{
