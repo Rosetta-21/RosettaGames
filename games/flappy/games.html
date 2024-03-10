@@ -15,6 +15,7 @@
     <link rel="manifest" href="../../asset/icon/site.webmanifest">
     <link rel="stylesheet" href="style.css" > 
     <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../asset/css/theme.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -47,8 +48,8 @@
           <!-- Icon on the right side -->
           <ul class="navbar-nav d-none d-lg-block">
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fas fa-solid fa-gamepad fs-4 text-light fw-bold"></i>
+              <a class="nav-link" href="#" onclick="toggleTheme()">
+                <i id="themeicon" class="fas fa-sun fa-solid fs-4 text-light fw-bold"></i>
               </a>
             </li>
           </ul>
@@ -97,6 +98,7 @@
 
     <script src="game.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../../asset/js/theme.js"></script>
 
 </body>
 </html>
