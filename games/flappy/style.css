@@ -15,9 +15,7 @@ html::-webkit-scrollbar {
     display: none; 
 }
 #bang {
-    /* background-color: #3A2473; */
-    background: rgb(42,26,87);
-    background: radial-gradient(circle, rgba(42,26,87,1) 6%, rgba(58,36,115,1) 38%, rgba(84,46,171,1) 92%);
+    background-color: var(--background-300);
     display: flex; 
     height: 100vh;
     justify-content: center;
@@ -48,12 +46,6 @@ canvas {
   }
 
 .card {
-    background-color: #542EAB;
-}
-.card .card-body {
-    color : white
+    background-color: var(--background-100);
 }
 
-.small-card .card-body {
-    color: white;
-}
