@@ -15,11 +15,12 @@ html::-webkit-scrollbar {
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../../asset/games/bg-min.jpg);
+    background-image: var(--games-bg);
     backdrop-filter: brightness(0.7);
     align-items: center;    
     flex-direction: column;
     justify-content: center;
+    transition: 0.5s;
 }
 
 #hero::before {
@@ -45,14 +46,14 @@ html::-webkit-scrollbar {
     background-position: center;
     background-repeat: inherit;
     background-size: auto;
-    background-image: url(../../asset/games/bg-min.jpg);
+    background-image: var(--games-bg);
   }
 }
 
 .card {
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
-    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
-    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.75);
 }
 
 .card .card-body {
@@ -60,12 +61,12 @@ html::-webkit-scrollbar {
 }
 
 .joedoel .judul {
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px var(--secondary-100);
     position: relative;
 }
 
 .joedoel .subjudul {
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px var(--secondary-100);
     position: relative;
 }
 
